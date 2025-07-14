@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: competitive-programming
+  description: A repository dedicated to competitive programming solutions and resources, providing algorithms and problem-solving techniques.
+  annotations:
+    github.com/project-slug: ShashankDatt08/Competitive-Programming
+    jira/project-key: SCRUM
+    jira/label: backstage-component:competitive-programming
+spec:
+  type: library
+  owner: ICS
+  lifecycle: experimental
