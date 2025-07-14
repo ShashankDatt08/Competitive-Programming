@@ -1,0 +1,15 @@
+```yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: competitive-programming
+  description: A repository containing solutions and resources for competitive programming challenges and contests.
+  annotations:
+    github.com/project-slug: ShashankDatt08/Competitive-Programming
+    jira/project-key: COMPETITIVE
+    jira/label: backstage-component:competitive-programming
+spec:
+  type: library
+  owner: ICS
+  lifecycle: experimental
+```
